@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() 
+  { inteiro numero, resultado, multi = 1
+    real valor
+
+  escreva("\tDigite um número para a tabuada:  \t")
+  leia(numero)
+
+  para(multi = 1; multi <= 10; multi++ ) 
+  {
+    resultado = numero * multi 
+    escreva(numero, "x", multi,"=", resultado,"\n")
+
+
+
+
+  }
+   
+
+
+
+
+
+  }
+}
