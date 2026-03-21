@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+     
+     cadeia usuariodigitado
+     cadeia senhaDigitada
+     
+     cadeia usuarioCorreto = "admin"
+     cadeia senhaCorreta = "123"
+
+     escreva("Usuário:  ")
+     leia(usuariodigitado)
+
+     escreva("Senha: ")
+     leia(senhaDigitada)
+     
+    se(usuariodigitado == usuarioCorreto e senhaDigitada == senhaCorreta) 
+    escreva("Acesso Liberado! \nBem vindo\t", usuarioCorreto)
+    senao se(usuariodigitado != usuarioCorreto e senhaDigitada == senhaCorreta){
+      escreva("Usuário incorreto")
+    }senao se (usuariodigitado == usuarioCorreto e senhaDigitada != senhaCorreta)
+      escreva ("Senha incorreta")
+      senao
+       escreva("senha e usuário não encontrado")
+
+  
+
+
+    
+    
+
+    
+    
+  }
+}
