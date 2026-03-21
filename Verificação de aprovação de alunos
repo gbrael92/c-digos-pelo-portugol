@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() 
+  {
+    real nota
+    inteiro faltas
+
+    escreva("Sistema de verificação de aprovação\n")
+
+    escreva("digite a nota do aluno:  ")
+    leia(nota)
+
+    escreva("digite as faltas do aluno:  ")
+    leia(faltas)
+    se (nota >= 6 e faltas > 10)
+    {
+      escreva("o aluno esta aprovado")
+    }
+    senao
+    {
+      escreva("o aluno esta reprovado")
+    }
+  
+  
