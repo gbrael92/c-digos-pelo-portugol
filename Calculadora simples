@@ -1,0 +1,89 @@
+programa {
+  funcao inicio() 
+  {real somar, subtrair, divir, multiplicar, opcao, soma, vu, vd, final
+
+
+    
+   
+
+
+
+    escreva("opção 1 = soma\n")
+    escreva("opção 2 = subtrair\n")
+    escreva("opção 3 = dividir\n")
+    escreva("opção 4 = multiplicar\n")
+    
+    
+    
+    
+    
+    escreva("digite uma opção: ")
+    leia(opcao)
+    
+    se(opcao == 1)
+    {
+      escreva("sua escolha é adição")
+    }
+
+    se(opcao == 2)
+    {
+      escreva("sua escolha é subtração")
+    }
+    
+    se(opcao == 3)
+    {
+      escreva("sua escolha é divisão")
+    }
+    
+    se(opcao == 4)
+    {
+      escreva("sua escolha é multiplicação")
+    }
+    
+    
+
+    
+
+    escreva("\ndigite o primeiro número:\t  ")
+    leia(vu)
+    escreva("\ndigite o segundo número:\t  ")
+    leia(vd)
+
+
+    se(opcao == 1)
+    {
+      final = ( vu + vd)
+      escreva("seu resultado é:  ", final)
+    }
+    
+    se(opcao == 2)
+    {
+      final = (vu - vd)
+      escreva("\nseu resultado é:  ", final)
+    }
+    
+    se(opcao == 3)
+    {
+      final = (vu / vd)
+      escreva("\nseu resultado é:  ", final)
+    }
+    
+    se(opcao == 4)
+    {
+      final = (vu * vd)
+      escreva("\nseu resultado é:  ", final)
+    }
+
+
+
+    
+
+
+    
+
+
+
+
+    
+  }
+}
