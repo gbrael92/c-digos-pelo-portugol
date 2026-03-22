@@ -1,0 +1,54 @@
+programa {
+  funcao inicio() 
+  { cadeia nome, maquina
+    real prod, def, meta, porcentagem , producao, pecas
+    inteiro ope 
+
+    escreva("Bem vindo\n")
+    escreva("Perspectiva de produção\n")
+    escreva("digite o nome da máquina:  ")
+    leia(nome)
+    escreva("digite a quantidade de peças produzidas:  ")
+    leia(prod)
+     pecas = (prod/60)
+     escreva("A quantidade de peças por hora é:  ",pecas)
+    escreva("\ndigite a quantidade de peças com defeito:  ")
+    leia(def)
+    def =(def/prod)*100
+    escreva("porcentagem de peças defeituosas;  ",def)
+    escreva("\ndigite a meta de produção diária:   ")
+    leia(meta)
+
+
+
+
+
+
+    se( prod==meta)
+    {
+      escreva("dentro da meta")
+    }
+    se(prod<meta)
+    {
+    escreva("abaixo da meta")
+    }
+    se(prod>meta)
+    {
+      escreva("acima da meta")
+    }
+    se(prod<meta/2)
+    {
+      escreva("\nalerta")
+    }
+   
+
+
+
+    
+
+    
+  }
+
+    
+  }
+}
